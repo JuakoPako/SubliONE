@@ -1,0 +1,9 @@
+.lila-btn {
+    background-color: #6a5acd; /* Color lila */
+    color: #ffffff; /* Texto en color blanco */
+    border: none;
+}
+
+.lila-btn:hover {
+    background-color: #483d8b; /* Cambia el color al pasar el mouse sobre el botón */
+}

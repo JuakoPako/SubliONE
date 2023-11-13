@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";@charset "ISO-8859-1";
+
+.carritovacio {
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.texto {
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Estilos para la imagen del producto en el carrito */
+.imagenproducto {
+    max-width: 100px; /* Establece el ancho máximo para la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el texto del producto */
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Estilos para la información del producto en el carrito */
+.cart-content div {
+    display: flex; /* Establece la disposición en fila */
+    align-items: center; /* Alinea verticalmente los elementos del div */
+    margin-bottom: 20px; /* Espaciado entre los productos */
+}
+
+.product-info {
+    margin-left: 10px; /* Agrega espacio entre la imagen y la información del producto */
+}
+
+.product-info h4 {
+    margin: 5px 0; /* Agrega espacio arriba y abajo del nombre del producto y del precio */
+}
+
+#precio {
+	margin-left: 20px;
+	color: rgb(0, 0, 0);
+}
+
+
+.total-container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.total-label {
+    font-size: 24px;
+    color: #333;
+}
+
+.total-amount {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.checkout-button {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.checkout-button:hover {
+    background-color: rgb(0, 0, 0); /* Cambio de color al pasar el cursor */
+}
